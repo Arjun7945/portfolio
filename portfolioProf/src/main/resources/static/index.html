@@ -1,0 +1,479 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | ARJUN</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">ARJUN PS</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">ARJUN</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/assets/profile-pic.png" alt="Arjun PS profile picture" />
+      </div>
+      <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">ARJUN PS</h1>
+          <p class="section__text__p2">FULL-STACK Developer</p>
+          <p class="section__text__p3">Experienced full-stack developer with a passion for creating visually stunning and user-friendly web applications.</p>
+              <div class="btn-container">
+                  <a href="/assets/CV_Arjunps.pdf" class="btn btn-color-1" download="CV_Arjunps.pdf"> Download CV </a>
+                  <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+              </div>
+              <div id="socials-container">
+                <div class="social">
+                  <img
+                    src="/assets/linkedin.png"
+                    alt="LinkedIn profile"
+                    class="icon"
+                    onclick="window.open('https://linkedin.com/in/arjun-ps-5a3890234', '_blank')"
+                  />
+                  <span>Let's Connect !</span>
+                </div>
+                <div class="social">
+                  <img
+                    src="/assets/github.png"
+                    alt="Github profile"
+                    class="icon"
+                    onclick="window.open('https://github.com/Arjun7945', '_blank')"
+                  />
+                  <span>Checkout</span>
+                </div>
+              </div> 
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="/assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="/assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>On Going <br />Software Developer Full-Stack</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="/assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Master of Computer Application - Pursuing<br />Bachelor of Computer Application - Completed</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                As a passionate Software Engineer with experience in both front-end and back-end technologies, I am constantly honing my skills and adapting to the evolving tech landscape. I am currently working at Diviso Softtech, where I’ve been thriving since July 2024. In this role, I am expanding my expertise in Core Java, Object-Oriented Programming (OOP), Flutter, Spring Boot, and MySQL, while contributing to dynamic projects in an on-site environment in Palakkad, Kerala.
+                Before joining Diviso Softtech, I gained valuable experience as an Associate Software Engineer Java Fullstack at LXI Technologies. During my six months there, I worked on full-stack development projects, building a strong foundation in both the back-end and front-end. My time at LXI Technologies provided me with hands-on experience with technologies like HTML, Spring Boot, and GitHub, helping me grow both technically and professionally.
+                I am always eager to take on new challenges, learn, and push the boundaries of my capabilities. I believe in continuous growth, and I’m dedicated to evolving as a software professional while delivering impactful solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"/>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Professional Experience</h1>
+      <div class="professional-experience">
+          <div class="experience-container">
+              <!-- FIRST EXPERIENCE -->
+              <div class="experience-item">
+                <div class="experience-icon">
+                    <img src="/assets/checkmark.png" alt="Experience Icon 2" class="icon">
+                </div>
+                <div class="experience-content">
+                    <h3 class="job-title">Software Developer Full-Stack</h3>
+                    <h4 class="company-name">Diviso Softtech</h4>
+                    <p class="job-duration">July 2024 – Present</p>
+                    <p class="job-description">
+                        I joined Diviso Softtech as a Software Engineer in July 2024, where I continue to thrive in my role.
+                        In this capacity, I am responsible for contributing to various projects, applying my knowledge of
+                        full-stack development while expanding my skill set. I am involved in end-to-end project development
+                        and optimization, delivering efficient solutions for complex problems.
+                    </p>
+                </div>
+            </div>
+              <!-- SECOND EXPERIENCE -->
+              <div class="experience-item">
+                <div class="experience-icon">
+                    <img src="/assets/checkmark.png" alt="Experience Icon 1" class="icon">
+                </div>
+                <div class="experience-content">
+                    <h3 class="job-title">Associate Software Engineer Full-stack</h3>
+                    <h4 class="company-name">LXI Technologies, Palakkad, Kerala</h4>
+                    <p class="job-duration">January 2024 – June 2024</p>
+                    <p class="job-description">
+                        I began my journey as an intern at LXI Technologies in January 2024, where I worked as an Associate
+                        Software Engineer in Java Fullstack. During this time, I gained invaluable hands-on experience in developing
+                        software solutions and building robust applications.
+                    </p>
+                    <div class="company-info">
+                      <img src="/assets/company.webp" alt="company logo" class="icon">
+                      <a href="https://www.lxisoft.com" class="company-link" target="_blank">Visit Company Website</a>
+                    </div>                      
+                </div>
+            </div>
+          </div>
+      </div>
+      <img
+      src="/assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow experience-arrow"
+      onclick="location.href='./#skills'"
+    />    
+  </section>
+
+      <!-- SKILLS SECTION -->
+
+<section id="skills">
+  <p class="section__text__p1">Checkout My</p>
+  <h1 class="title">Skills Gained</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container for-skills">
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>HTML</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>CSS</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Flutter</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>JavaScript</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>TypeScript</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>DART</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container for-skills">
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Java</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Spring | Spring Boot</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>REST API's</h3>
+
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Streams | Lambda Expressions</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">DataBase | Version Control</h2>
+        <div class="article-container for-skills">
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>MySQL</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>GitHub</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Git</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">Other</h2>
+        <div class="article-container for-skills">
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Microservices</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>TDD (Test-Driven Development)</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Agile (Scrum)</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">Additional Knowledge</h2>
+        <div class="article-container for-skills">
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>12-Factor App Methodology</h3>
+            </div>
+          </article>
+          <article>
+            <img src="/assets/checkmark.png" alt="Experience icon" class="icons" />
+            <div>
+              <h3>Codespaces</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <img
+    src="/assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+
+<!-- PROJECT SECTION -->
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="/assets/project-4.webp" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Project One</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="showPopupMessageForNEW()">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="showPopupMessageForNEW()">
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="/assets/project-2.png" alt="Project 2" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">INTRACK</h2>
+        <h3 style="font-size: 1.3rem; font-weight: 500; color: rgb(91, 89, 89); margin-bottom: 2rem; text-align: center;"> On Going </h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="showPopupMessageForIntrack()">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="showPopupMessageForIntrack()">
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+<!-- Custom Alert Modal -->
+<div id="custom-alert" class="custom-alert">
+  <div class="custom-alert-content">
+    <span id="alert-message-text"></span>
+    <span class="custom-alert-close" onclick="closeCustomAlert()">&#x2715;</span> <!-- Close button (X) -->
+  </div>
+</div>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <!-- Section Heading -->
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  
+  <!-- Contact Info -->
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+      <p><a href="mailto:arjunarjups111@gmail.com">Drop me an email</a></p>
+  
+      <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon linkedin-icon" />
+      <p><a href="https://linkedin.com/in/arjun-ps-5a3890234" target="_blank">Let's connect!</a></p>
+  
+      <img src="/assets/phone.png" alt="phone icon" class="icon contact-icon" />
+      <p>+91 7736670582</p>
+
+      <img src="/assets/instagram.png" alt="instagram icon" class="icon contact-icon" />
+      <p><a href="https://www.instagram.com/kingsten_350?igsh=eDIxeng3eWhoMjdw&utm_source=qr">Let's follow each other!</a></p>
+    
+      <img src="/assets/github.png" alt="github icon" class="icon contact-icon" />
+      <p><a href="https://github.com/Arjun7945" target="_blank">Find me!</a></p>
+    </div>
+  </div>
+  
+  <!-- Contact Form -->
+  <div class="contact-info-below-container">
+    <h2>Stay in Touch:</h2>
+    <div class="contact-info-container">
+      <form id="submit-to-google-sheet" method="POST" class="contact-form">
+        <div class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" class="contact-input" required />
+        </div>
+  
+        <div class="contact-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" class="contact-input" required />
+        </div>
+  
+        <div class="contact-form">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" class="contact-input" required></textarea>
+        </div>
+  
+        <button type="submit" class="contact-submit-btn">Submit</button>
+      </form>
+    </div>
+  
+    <!-- Info Bubble -->
+    <div class="info-bubble">
+      <p>Drop me a text to stay in touch.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Arjun Ps. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz601J0TJZ1j0IrAqL5BW1F-ZMn3NR_zaHcMTC2MpFtUfYm0kWabPm5Rzj68srzBm3r1g/exec';
+  const form = document.getElementById('submit-to-google-sheet');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => response.json())
+      .then(data => {
+        if (data.status === "success") {
+          alert("Thank you! Your response has been successfully delivered to Arjun.");
+          form.reset();
+        } else {
+          alert("Sorry! Your response could not be delivered to Arjun. Please try again later.");
+        }
+      })
+      .catch(error => {
+        alert("Error: " + error.message);
+      });
+  });
+</script>
+
+</body>
+</html>
